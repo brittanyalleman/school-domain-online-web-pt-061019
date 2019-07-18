@@ -15,7 +15,7 @@ def grade(grade)
   roster[grade]
 end
  def sort
-   roster.sort { |a, b| b <=> a }
+   @roster.each {|key, value| value.sort! }
  end
 
 end
