@@ -14,7 +14,7 @@ end
 def grade(grade)
   roster[grade]
 end
- def sort(roster)
+ def sort(name)
    roster.sort { |a, b| b <=> a }
  end
 
