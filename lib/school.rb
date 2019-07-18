@@ -17,9 +17,5 @@ end
  def roster(name)
    roster.sort { |a, b| b <=> a }
  end
-   #if grade isn't in roster ref to line 9
-   #if there is a key value pair that corrisponds with the grade, then just add the name to the value array
-   # how do determine if the hash has a particular key
-
-
+   
 end
