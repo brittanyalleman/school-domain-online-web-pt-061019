@@ -15,7 +15,7 @@ def grade(grade)
   roster[grade]
 end
  def roster(name)
-   roster.sort
+   roster.sort { |a, b| b <=> a }
  end
    #if grade isn't in roster ref to line 9
    #if there is a key value pair that corrisponds with the grade, then just add the name to the value array
